@@ -28,6 +28,7 @@ export function Video() {
           src="https://www.youtube-nocookie.com/embed/HFM9Mzsx5O0?wmode=opaque&amp;controls=1&amp;rel=0&amp;autohide=0&amp;enablejsapi=1&amp;origin=https%3A%2F%2Fwww.cam.ac.uk"
           name="Our world-leading researchers are exploring how AI can benefit society."
           allowFullScreen
+          loading="lazy"
         >
           {`Video of Our world-leading researchers are exploring how AI can benefit society.`}
         </iframe>

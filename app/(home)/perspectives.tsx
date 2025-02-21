@@ -21,6 +21,7 @@ export function StudentPerspectives() {
           src="https://www.youtube-nocookie.com/embed/GJHLSsDtUDE?wmode=opaque&amp;controls=1&amp;rel=0&amp;autohide=0&amp;enablejsapi=1&amp;origin=https%3A%2F%2Fwww.cam.ac.uk"
           name="POV: Attend a Cambridge Foundation Year Interview"
           allowFullScreen
+          loading="lazy"
         >
           {`Video of POV: Attend a Cambridge Foundation Year Interview`}
         </iframe>
