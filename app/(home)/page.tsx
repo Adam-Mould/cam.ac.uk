@@ -1,15 +1,12 @@
-import dynamic from "next/dynamic";
-
 import { Events } from "./events";
 import { Grid } from "./grid";
 import { CambridgeInstagram } from "./instagram";
 import { News } from "./news";
 import { PageHero } from "./page-hero";
 import { Pathways } from "./pathways";
+import { StudentPerspectives } from "./perspectives";
 import { SocialMedia } from "./social-media";
-
-const Video = dynamic(() => import("./video"));
-const StudentPerspectives = dynamic(() => import("./perspectives"));
+import { Video } from "./video";
 
 export default function Home() {
   return (

@@ -3,7 +3,7 @@
 import { useRef } from "react";
 import { motion, useScroll, useTransform } from "motion/react";
 
-export default function Video() {
+export function Video() {
   const ref = useRef<HTMLDivElement>(null);
 
   const { scrollYProgress } = useScroll({

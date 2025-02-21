@@ -2,7 +2,7 @@ import * as motion from "motion/react-client";
 
 import { YouTube } from "@/components/ui/icons";
 
-export default function StudentPerspectives() {
+export function StudentPerspectives() {
   return (
     <motion.section
       className="space-y-4"
