@@ -1,21 +1,22 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  --color-primary: #6bbbae;
+  --color-secondary: #e5007d;
+  --color-muted: #6c757d;
+
+  --text-h1: clamp(26px, 8vw, 56px);
+  --text-h2: clamp(24px, 8vw, 32px);
+
+  --spacing-sm: clamp(16px, 5vw, 32px);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@layer base {
+  * {
+    @apply focus-visible:ring-secondary focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-offset-2 focus-visible:ring-offset-transparent;
   }
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+@utility container {
+  @apply mx-auto max-w-7xl px-4;
 }
