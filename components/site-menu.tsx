@@ -57,7 +57,7 @@ const Menu = forwardRef((props, ref) => {
       }}
       transition={{ duration: 0.2, ease: "easeIn" }}
       id="site-menu"
-      className="bg-primary max-w-100 pt-18 absolute right-0 top-0 z-10 h-dvh w-full text-black"
+      className="bg-primary max-w-100 pt-18 fixed right-0 top-0 z-10 h-dvh w-full text-black"
       {...props}
     >
       <motion.ul
